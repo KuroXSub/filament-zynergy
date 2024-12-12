@@ -47,19 +47,16 @@
     <li><strong>Personalization Management</strong>:
         <ul>
             <li>Create, read, update, and delete personalization data.</li>
-            <li>Personalization features may include themes, display settings, and user preferences.</li>
         </ul>
     </li>
     <li><strong>User Management</strong>:
         <ul>
-            <li>Manage user data such as name, email, and login information.</li>
             <li>CRUD features for users.</li>
         </ul>
     </li>
     <li><strong>Reminder Management</strong>:
         <ul>
             <li>Create, read, update, and delete reminders.</li>
-            <li>Reminders can be scheduled based on date, time, or specific categories.</li>
         </ul>
     </li>
 </ol>
