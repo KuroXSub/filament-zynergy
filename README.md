@@ -81,7 +81,6 @@
 <h3>1. Clone the Repository</h3>
 <p>First, clone this repository to your local machine using the following command:</p>
 <pre><code>git clone https://github.com/KuroXSub/filament-zynergy.git</code></pre>
-<p>Replace <code>username</code> with your GitHub username and <code>filament-zynergy</code> with your repository URL.</p>
 
 <h3>2. Navigate to the Project Directory</h3>
 <p>After the cloning process is complete, navigate to the project directory:</p>
