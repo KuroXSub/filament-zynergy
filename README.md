@@ -2,8 +2,14 @@
 
 <p>Filament Zynergy is a Laravel-based application powered by Filament, designed to manage personalization, user, and reminder data. This application leverages Laravel as the backend and Filament as the admin panel to facilitate CRUD (Create, Read, Update, Delete) operations.</p>
 
+<h2>Deployment Information</h2>
+
+<p>The Filament Zynergy application has been deployed and is accessible at:</p>
+
+<p><strong>Website</strong>: <a href="https://backoffice-zynergy.gevannoyoh.com/admin/login" target="_blank">https://backoffice-zynergy.gevannoyoh.com/admin/login</a></p>
+
 <div class="credentials">
-    <h3>Login Credentials</h3>
+    <h2>Login Credentials</h2>
     <p>You can use the following credentials to log in to the deployed application:</p>
     <ul>
         <li><strong>Email</strong>:
@@ -69,12 +75,6 @@
     <li>Node.js (for frontend dependency management)</li>
     <li>Git (for cloning the repository)</li>
 </ul>
-
-<h2>Deployment Information</h2>
-
-<p>The Filament Zynergy application has been deployed and is accessible at:</p>
-
-<p><strong>Website</strong>: <a href="https://backoffice-zynergy.gevannoyoh.com/admin/login" target="_blank">https://backoffice-zynergy.gevannoyoh.com/admin/login</a></p>
 
 <h2>How to Clone and Install</h2>
 
