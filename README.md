@@ -1,64 +1,184 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filament Zynergy - README</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 3px;
+            overflow-x: auto;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .credentials {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .credentials ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .credentials li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+<h1>Filament Zynergy</h1>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p>Filament Zynergy is a Laravel-based application powered by Filament, designed to manage personalization, user, and reminder data. This application leverages Laravel as the backend and Filament as the admin panel to facilitate CRUD (Create, Read, Update, Delete) operations.</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h2>Technical Specifications</h2>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<ul>
+    <li><strong>Framework</strong>: Laravel</li>
+    <li><strong>Admin Panel</strong>: Filament</li>
+    <li><strong>Programming Language</strong>: PHP 8.3</li>
+    <li><strong>Database</strong>: MySQL 8.0.30</li>
+    <li><strong>Main Features</strong>:
+        <ul>
+            <li>Personalization Management</li>
+            <li>User Management</li>
+            <li>Reminder Management</li>
+        </ul>
+    </li>
+</ul>
 
-## Learning Laravel
+<h2>Application Features</h2>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<ol>
+    <li><strong>Personalization Management</strong>:
+        <ul>
+            <li>Create, read, update, and delete personalization data.</li>
+            <li>Personalization features may include themes, display settings, and user preferences.</li>
+        </ul>
+    </li>
+    <li><strong>User Management</strong>:
+        <ul>
+            <li>Manage user data such as name, email, and login information.</li>
+            <li>CRUD features for users.</li>
+        </ul>
+    </li>
+    <li><strong>Reminder Management</strong>:
+        <ul>
+            <li>Create, read, update, and delete reminders.</li>
+            <li>Reminders can be scheduled based on date, time, or specific categories.</li>
+        </ul>
+    </li>
+</ol>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<h2>System Requirements</h2>
 
-## Laravel Sponsors
+<p>Before getting started, ensure your system meets the following requirements:</p>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<ul>
+    <li>PHP 8.3 or higher</li>
+    <li>MySQL 8.0.30</li>
+    <li>Composer (for PHP dependency management)</li>
+    <li>Node.js (for frontend dependency management)</li>
+    <li>Git (for cloning the repository)</li>
+</ul>
 
-### Premium Partners
+<h2>Deployment Information</h2>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+<p>The Filament Zynergy application has been deployed and is accessible at:</p>
 
-## Contributing
+<p><strong>Website</strong>: <a href="https://backoffice-zynergy.gevannoyoh.com/admin/login" target="_blank">https://backoffice-zynergy.gevannoyoh.com/admin/login</a></p>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<div class="credentials">
+    <h3>Login Credentials</h3>
+    <p>You can use the following credentials to log in to the deployed application:</p>
+    <ul>
+        <li><strong>Email</strong>:
+            <ul>
+                <li>adminichi@kuroxsub.my.id</li>
+                <li>adminni@kuroxsub.my.id</li>
+                <li>adminsan@kuroxsub.my.id</li>
+                <li>adminyon@kuroxsub.my.id</li>
+                <li>admingo@kuroxsub.my.id</li>
+            </ul>
+        </li>
+        <li><strong>Password</strong>: <code>password</code></li>
+    </ul>
+</div>
 
-## Code of Conduct
+<h2>How to Clone and Install</h2>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<h3>1. Clone the Repository</h3>
+<p>First, clone this repository to your local machine using the following command:</p>
+<pre><code>git clone https://github.com/username/filament-zynergy.git</code></pre>
+<p>Replace <code>username</code> with your GitHub username and <code>filament-zynergy</code> with your repository URL.</p>
 
-## Security Vulnerabilities
+<h3>2. Navigate to the Project Directory</h3>
+<p>After the cloning process is complete, navigate to the project directory:</p>
+<pre><code>cd filament-zynergy</code></pre>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<h3>3. Install PHP Dependencies</h3>
+<p>Use Composer to install all PHP dependencies:</p>
+<pre><code>composer install</code></pre>
 
-## License
+<h3>4. Install Frontend Dependencies</h3>
+<p>If your project has frontend dependencies, run the following command to install them:</p>
+<pre><code>npm install</code></pre>
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<h3>5. Configure the Environment</h3>
+<p>Copy the <code>.env.example</code> file to <code>.env</code>:</p>
+<pre><code>cp .env.example .env</code></pre>
+<p>Edit the <code>.env</code> file to configure the database and other settings according to your environment. For example:</p>
+<pre><code>DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=filament_zynergy
+DB_USERNAME=root
+DB_PASSWORD=</code></pre>
+
+<h3>6. Generate Application Key</h3>
+<p>Generate the Laravel application key with the following command:</p>
+<pre><code>php artisan key:generate</code></pre>
+
+<h3>7. Run Database Migrations</h3>
+<p>Run the migrations to create the necessary tables:</p>
+<pre><code>php artisan migrate</code></pre>
+
+<h3>8. Start the Local Server</h3>
+<p>To run the local server, use the following command:</p>
+<pre><code>php artisan serve</code></pre>
+<p>The application will be accessible at <code>http://localhost:8000</code>.</p>
+
+<h3>9. (Optional) Seed the Database</h3>
+<p>If you want to populate the database with dummy data, run the following command:</p>
+<pre><code>php artisan db:seed</code></pre>
+
+<h2>Contribution</h2>
+<p>We highly appreciate contributions. Please create a pull request if you would like to contribute to this project.</p>
+
+<h2>License</h2>
+<p>This project is licensed under the <a href="LICENSE" target="_blank">MIT License</a>.</p>
+
+</body>
+</html>
