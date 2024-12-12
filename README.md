@@ -119,11 +119,5 @@ DB_PASSWORD=</code></pre>
 <p>If you want to populate the database with dummy data, run the following command:</p>
 <pre><code>php artisan db:seed</code></pre>
 
-<h2>Contribution</h2>
-<p>We highly appreciate contributions. Please create a pull request if you would like to contribute to this project.</p>
-
-<h2>License</h2>
-<p>This project is licensed under the <a href="LICENSE" target="_blank">MIT License</a>.</p>
-
 </body>
 </html>
