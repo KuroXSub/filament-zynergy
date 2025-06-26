@@ -129,7 +129,7 @@ class HealthCheckupReminderResource extends Resource
                 Tables\Columns\TextColumn::make('toggle_value')
                     ->label('Status reminder')
                     ->sortable()
-                    ->formatStateUsing(fn ($state) => match ($state) {
+                    ->formatStateUsing(fn ($state) => match ((int) $state) {
                         1 => 'Aktif',
                         0 => 'Non-aktif',
                     }),
